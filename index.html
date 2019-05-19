@@ -11,13 +11,17 @@
 			<img src="img/Layer_90_copy_2.png" width="220" height="47" alt="Логотип ТЕХНОМАРТ">
 		</a>
 		<section class="container">
+			<form>
+   <p><input type="search" name="q" placeholder="Поиск по сайту"> 
+   <input type="submit" value="Поиск"></p>
+  </form>
 			<a class="btn" href="bookmarks.html">Закладки</a>
 			<a class="btn" href="basket.html">Корзина</a>
 			<a class="btn2" href="ordering.html">Оформить заказ</a>
 		</section>
 	</header>
 	<section class="slogan">
-		<p>Интернет-магазин
+		<p class="text">Интернет-магазин
 			строительных материалов
 		и инструментов для ремонта</p>
 		<a href="tel:+78125550555">+7 (812) 555-05-55</a>
@@ -60,7 +64,25 @@
 				</div>
 				<a class="btn" href="write-us.html">Заблудились? Напишите нам!</a>
 			</section>
+            <div class="feedback">
+            	<form class="feedback"
+            		action="#" method="post">
+            		<p class="item">
+            			<label for="feedback-name">Ваше имя:</label>
+            			<input type="text" name="name" placeholder="Имя Фамилия">
+            		</p>
+            		<p class="item">
+            			<label for="feedback-mail">Ваш e-mail:</label>
+            			<input type="text" name="e-mail"
+            			placeholder="email@example.com">
+            		</p>
+            		<p class="item">
+            			<label for="feedback-text">Текст письма</label>
+            			<input type="text" name="text" placeholder="В свободной форме">
+            		</p>
+            		<a class="btn" href="#">Отправить</a>
 
+            	</form>
 		</main>
 		<footer class="top">
 			<img src="img/Layer_90_copy_2.png" width="220" height="68" alt="Логотип ТЕХНОМАРТ">
@@ -78,7 +100,7 @@
 				<li><a href="tecgniks.html">Техника</a></li>
 				<li><a href="tool.html">Инструмент</a></li>
 				<li><a href="spec.html">Специпредложения</a></li>
-				<p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
+				<p class="last">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
 					<a href="tel:+78125550555">+7 (812) 555-05-55</a></p>
 				</footer>
 				<footer class="bottom">
