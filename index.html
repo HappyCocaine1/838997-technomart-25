@@ -7,14 +7,17 @@
 </head>
 <body>
 	<header>
-		<a class="main-header-logo">
-			<img src="img/Layer_90_copy_2.png" width="220" height="47" alt="Логотип ТЕХНОМАРТ">
-		</a>
+		
 		<section class="container">
 			<form>
-   <p><input type="search" name="q" placeholder="Поиск по сайту"> 
-   <input type="submit" value="Поиск"></p>
-  </form>
+				<input type="search" name="q" placeholder="Поиск по сайту"> 
+				<input type="submit" value="Поиск">
+			</form>
+			<div class="logo">
+				<a class="header">
+					<img src="img/Layer_90_copy_2.png" width="220" height="47" alt="Логотип ТЕХНОМАРТ">
+				</a>
+			</div>
 			<a class="btn" href="bookmarks.html">Закладки</a>
 			<a class="btn" href="basket.html">Корзина</a>
 			<a class="btn2" href="ordering.html">Оформить заказ</a>
@@ -25,7 +28,7 @@
 			строительных материалов
 		и инструментов для ремонта</p>
 		<a href="tel:+78125550555">+7 (812) 555-05-55</a>
-		<h3>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</h3>
+		<p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
 		<a class="btn" href="login.html">Войти</a>
 		<a class="btn" href="registration.html">Регистрация</a>
 	</section>
@@ -44,7 +47,7 @@
 	<main class="container2">
 		<section class="advantages">
 			<div class="company">
-				<h1>Компания "ТЕХНОМАРТ"</h1>
+				<p>Компания "ТЕХНОМАРТ"</p>
 				<p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.</p>
 				<p>Мы можем доставить ваш товар в самые отдаленные точки России!
 				Техномарт работает со многими транспортными компаниями: </p>
@@ -64,30 +67,32 @@
 				</div>
 				<a class="btn" href="write-us.html">Заблудились? Напишите нам!</a>
 			</section>
-            <div class="feedback">
-            	<form class="feedback"
-            		action="#" method="post">
-            		<p class="item">
-            			<label for="feedback-name">Ваше имя:</label>
-            			<input type="text" name="name" placeholder="Имя Фамилия">
-            		</p>
-            		<p class="item">
-            			<label for="feedback-mail">Ваш e-mail:</label>
-            			<input type="text" name="e-mail"
-            			placeholder="email@example.com">
-            		</p>
-            		<p class="item">
-            			<label for="feedback-text">Текст письма</label>
-            			<input type="text" name="text" placeholder="В свободной форме">
-            		</p>
-            		<a class="btn" href="#">Отправить</a>
+			<div class="feedback">
+				<form class="feedback"
+				action="#" method="post">
+				<p class="item">
+					<label for="feedback-name">Ваше имя:</label>
+					<input type="text" name="name" placeholder="Имя Фамилия">
+				</p>
+				<p class="item">
+					<label for="feedback-mail">Ваш e-mail:</label>
+					<input type="text" name="e-mail"
+					placeholder="email@example.com">
+				</p>
+				<p class="item">
+					<label for="feedback-text">Текст письма</label>
+					<input type="text" name="text" placeholder="В свободной форме">
+				</p>
+				<a class="button" type="submit">Отправить</a>
 
-            	</form>
-		</main>
-		<footer class="top">
+			</form>
+		</div>
+	</main>
+	<footer>
+		<div class="top">
 			<img src="img/Layer_90_copy_2.png" width="220" height="68" alt="Логотип ТЕХНОМАРТ">
-			<div class="navigation1">
-				<ul class="site-navigation">
+			<div class="footer-nav">
+				<ul>
 					<li><a href="company.html">Компания</a></li>
 					<li><a href="news.html">Новости</a></li>
 					<li><a href="catalog.html">Каталог</a></li>
@@ -100,10 +105,10 @@
 				<li><a href="tecgniks.html">Техника</a></li>
 				<li><a href="tool.html">Инструмент</a></li>
 				<li><a href="spec.html">Специпредложения</a></li>
-				<p class="last">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
+				<p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
 					<a href="tel:+78125550555">+7 (812) 555-05-55</a></p>
-				</footer>
-				<footer class="bottom">
+				</div>
+				<div class="bottom">
 					<div class="Copyright">
 						<p>© 2010–2019 Компания «Техномарт»
 						Все права защищены</p>
@@ -119,10 +124,8 @@
 					mail@htmlacademy.ru</p>
 				</div>
 				<div class="developer">
-					<p>Разработано —
-					htmlacademy.ru</p>
-
-				</div>
-			</footer>
-		</body>
-		</html>
+					<p><a href="htmlacademy.ru">Разработано —</p>
+					</div>
+				</footer>
+			</body>
+			</html>
